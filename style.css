@@ -580,7 +580,7 @@ footer {
   position: absolute;
   top: 0;
   left: 480px;
-};
+}
 
 /* セクション2 挙動がおかしい*/
 .product-section2 {
@@ -604,11 +604,11 @@ footer {
   left: 0;
 }
 /* セクション2 もう一度 */
-.product-section2 {
+/* .product-section2 {
   position: relative;
   margin: 20px;
   height: 340px;
-}
+} */
 
 .product-h2 {
   color: #2710d5;
