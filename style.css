@@ -17,6 +17,17 @@ body {
   min-width: 960px;
   margin: 0 auto 0 auto;
 }
+
+/* PC用カルーセル設定 */
+.carousel {
+  width: 885px;
+  margin-left: 20px;
+}
+.carouselImg {
+  /* width: 885px; */
+  width: 100%;
+}
+
 /* ヘッダー */
 header {
   display: flex;
@@ -630,14 +641,28 @@ footer {
     min-width: 375px;
     margin: 0;
   }
+
+  /* スマホ用カルーセル設定 */
+  .carousel {
+    width: 375px;
+    margin: 0 auto 0 auto;
+  }
+
+  .carouselImg {
+    width: 100%;
+  }
+
   /* PC用ナビゲーション非表示 */
   #nav-pc {
     display: none;
   }
   /* ハンバーガーメニュー */
   #menu-sp {
-    float: right;
-    padding: 0;
+    /* float: right; */
+    /* padding: 0; */
+    position: absolute;
+    top: 0;
+    right: 0;
   }
   /* スマホ用ナビゲーションの表示切替 */
   /* 初期状態　レイアウトと非表示設定 */
